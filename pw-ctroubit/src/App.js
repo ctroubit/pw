@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import {
     BrowserRouter as Router,
     Routes,
@@ -12,13 +13,11 @@ import Home from "./pages/Home";
 
 function App() {
     return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                
-            </Routes>
-        </Router>
+        <>
+        <Header/>
+        <Navbar></Navbar>
+        </>
+        
     );
 }
 
