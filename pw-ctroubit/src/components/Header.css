@@ -1,11 +1,50 @@
 .Header{
-   color: white;
    font-size:500%;
-   margin-left: 10%;
+   color: black;
+   font-family: 'custom',sans-serif;
+   font-weight: 100;
+   margin-top: 1vh;
+}
+
+@font-face {
+    font-family: "custom";
+    src: url('./circular-std-2.ttf') format('truetype');
 }
 .subheader{
-    color:white;
     font-size: 150%;
-    margin-left: 10.5%;
+    margin-left: 0.5%;
     margin-top: auto;
+    color: black;
+    font-family: 'custom',sans-serif;
+
+}
+
+.main{
+    color: white;
+    margin-left: 10%;
+    display: flex;
+}
+
+.musDiv{
+    margin-top: 5vh;
+    margin-left: 22vw;
+}
+
+.spotify{
+color: black;
+}
+
+.spotify:hover{
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.apmusic{
+color: black;
+
+}
+
+.apmusic:hover{
+    color: #f1f1f1;
+    transition: 0.3s;
 }

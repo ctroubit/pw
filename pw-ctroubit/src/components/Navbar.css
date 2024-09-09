@@ -1,15 +1,20 @@
 .sidenav {
-  height: 50%;
-  width: 200px;
+  height: 70vh;
+  width:300px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0C243C;
+  background-color: #1DB954;
   overflow-x: hidden;
   padding-top: 20px;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 10%;
+}
+
+@font-face {
+  font-family: "custom";
+  src: url('./circular-std-2.ttf') format('truetype');
 }
   
   /* The navigation menu links */
@@ -17,9 +22,10 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
+    font-family: 'custom',sans-serif;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -47,3 +53,33 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  .Contact{
+    margin-top: 30vh;
+    color: white;
+    font-family: 'custom',sans-serif;
+    margin-left: 40px;
+  }
+
+  .git:hover{
+    color: #f1f1f1;
+    transition: 0.3s;
+  }
+  .linked:hover{
+    color: #f1f1f1;
+    transition: 0.3s;
+  }
+  .mail:hover{
+    color: #f1f1f1;
+    transition: 0.3s;
+  }
+
+  .mainContact{
+    display: flex;
+    margin-right: 20px;
+  }
+
+.shitdiv{
+  margin-left: 3vw;
+}
+  
