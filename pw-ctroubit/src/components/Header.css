@@ -3,7 +3,7 @@
    color: #191414;
    font-family: 'custom',sans-serif;
    font-weight: 100;
-   margin-top: 1vh;
+   margin-top: 2vh;
 }
 
 @font-face {
@@ -21,13 +21,13 @@
 
 .main{
     color: white;
-    margin-left: 10%;
+    margin-left: 3%;
     display: flex;
 }
 
 .musDiv{
     margin-top: 5vh;
-    margin-left: 22vw;
+    margin-left: 29vw;
 }
 
 .spotify{
@@ -37,6 +37,7 @@ color: black;
 .spotify:hover{
     color: #f1f1f1;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .apmusic{
@@ -47,4 +48,5 @@ color: black;
 .apmusic:hover{
     color: #f1f1f1;
     transition: 0.3s;
+    cursor: pointer;
 }

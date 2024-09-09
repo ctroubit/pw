@@ -14,14 +14,20 @@ import {
 
 function App() {
     return (
-        <>
+        <Router>
+            <>
         <Header/>
         <h1 className="bruh">pick your favourite!</h1>
         <Navbar></Navbar>
-       <Home/>
+
+        <Routes>
+            <Route path='/' element={<><Home></Home></>}/>
+            <Route path='/about' element={<><About></About></>}/>
+        </Routes>
         </>
+        </Router>
+        
         
     );
 }
-
 export default App;

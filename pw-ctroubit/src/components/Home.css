@@ -1,9 +1,23 @@
 .Home{
-    background-color: #1DB954;
-    width: 70vw;
+    background-color:#1DB954;
+    width: 72vw;
     height: 70vh;
-    margin-left: 22%;
-    margin-top: 0;
+    margin-left: 12%;
+    margin-top: -1vh;
     text-align: center;
-    display: flex;
+    align-items: center;
+    /* Enable flexbox */
+    justify-content: center;
 } 
+
+.HEADER1{
+   
+    margin-top: -25%;
+    font-size: 250%;
+    font-style: italic;
+}
+.text-div{
+    text-align: center;
+    align-items: center;
+    margin-left: 20%;
+}

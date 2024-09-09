@@ -1,43 +1,25 @@
-
-
 import "./Home.css"
-
+import Banner from "./Banner";
 import React from "react";
 
-import img1 from '../images/img1.jpg';
-import img2 from '../images/img2.jpg';
-import img3 from '../images/img3.jpg';
-import img4 from '../images/img4.jpg';
-import img5 from '../images/img5.jpg';
-import img6 from '../images/img6.jpg';
-import img7 from '../images/img7.JPG';
-import img8 from '../images/img8.jpg';
 
-import './Banner.css'
-
-const images = [img1,img2,img3,img4,img5,img6,img7,img8]
 
 const Home = () => {
   return(
-    <div className='Home'>
-      <div className = "banner-wrapper">
-        <div className="wrapper">
-            <div className="images">
-            {images.map((image,index)=>(
-                <div className="image">
-                    <img key={index} src={image} alt={`Image ${index + 1}`} className="imagestuff" />
-                </div>
-            ))}
-            </div>
-            <div className="images">
-            {images.map((image,index)=>(
-                <div className="image">
-                    <img key={index} src={image} alt={`Image ${index + 1}`} className="imagestuff" />
-                </div>
-            ))}
-            </div>
-        </div> 
-    </div>
+    <div className="Home">
+      <Banner className="banner" />
+      <div className="text-div">
+      <h1 className="HEADER1">Welcome to my website!</h1>
+      
+      <h1 className="HEADER2"> I'm Cristian, a 4th year software engineering student</h1>
+      <h1 className="HEADER3"> Use the sidebar  to learn more about me and my work</h1>
+      <h2 className="SMALLHEADER">PS: Hover over the photos to get them to stop at a specific time.</h2>
+      </div>
+      
+     
+
+      
+
     </div>
     
 );
