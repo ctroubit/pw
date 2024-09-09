@@ -1,13 +1,13 @@
 .sidenav {
   height: 70vh;
-  width:300px;
+  width:15vw;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #1DB954;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 5vh;
   margin-left: 5%;
   margin-top: 10%;
 }
