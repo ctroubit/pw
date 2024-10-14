@@ -1,78 +1,126 @@
+
+.sidenav.default-theme {
+  background-color: black;
+}
+
+.sidenav.default-theme a {
+  color: #1DB954; 
+}
+
+.sidenav.default-theme .label {
+  color: #1DB954;
+}
+
+
+.sidenav.apple-theme {
+  background-color: #FA233B; 
+}
+
+.sidenav.apple-theme a {
+  color: white;
+}
+
+.sidenav.apple-theme .label {
+  color: white;
+}
+
+
+.sidenav.spotify-theme {
+  background-color: #191414; 
+}
+
+.sidenav.spotify-theme a {
+  color: #1DB954; 
+}
+
+.sidenav.spotify-theme .label {
+  color: #1DB954;
+}
+
+
 .sidenav {
   height: 70vh;
-  width:15vw;
+  width: 15vw;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #1DB954;
   overflow-x: hidden;
   padding-top: 5vh;
-  margin-left: 3%;
+  margin-left: 0%;
   margin-top: 9%;
-  border-style: solid;
+  position: absolute;
+  
 }
 
-@font-face {
-  font-family: "custom";
-  src: url('./circular-std-2.ttf') format('truetype');
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  transition: 0.3s;
+  font-family: 'custom', sans-serif;
 }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 30px;
-    color: black;
-    display: block;
-    transition: 0.3s;
-    font-family: 'custom',sans-serif;
-    
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
-    padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
 
-  .Contact{
-    margin-top: 30vh;
-    color: white;
-    font-family: 'custom',sans-serif;
-    margin-left: 40px;
-  }
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-  .git:hover{
-    color: #f1f1f1;
-    transition: 0.3s;
-  }
-  .linked:hover{
-    color: #f1f1f1;
-    transition: 0.3s;
-  }
-  .mail:hover{
-    color: #f1f1f1;
-    transition: 0.3s;
-  }
+.Contact {
+  color: white;
+  font-family: 'custom', sans-serif;
+}
 
-  .mainContact{
-    display: flex;
-    margin-right: 20px;
-  }
+.git:hover,
+.linked:hover,
+.mail:hover {
+  color: #f1f1f1;
+  transition: 0.3s;
+}
 
-.shitdiv{
+.mainContact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.navLinks {
   margin-left: 3vw;
 }
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.iconRow {
+  display: flex;
+  align-items: center;
   
+}
+
+.label {
+  margin-left: 10px;
+  font-family: 'custom', sans-serif;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1800px) {
+  .sidenav {
+    width: 17vw;
+    margin-top: 8%;
+    height: 75vh;
+  }
+
+  .mainContact {
+    margin-left: 2vw;
+    margin-top: 10vh;
+  }
+
+  .Contact {
+    margin-top: 3vh;
+  }
+}

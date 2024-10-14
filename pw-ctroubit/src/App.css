@@ -1,12 +1,50 @@
+
 .App {
   text-align: center;
-  
 }
 
-.bruh{
+.bruh {
   font-size: small;
-  margin-left: 87vw;
+  margin-left: 83vw;
   margin-top: auto;
+}
+.Home{
+  color: white;
+  margin-left: 10vw;
+
+}
+
+.header-container {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.hello{
+  margin-left: 5vw;
+}
+.copy{
+  text-align: center;
+  margin-top: 0.5vh;
+  font-weight: 700;
+}
+
+.App.apple-theme {
+  background-color: #FA233B;
+  color: white;
+}
+
+.App.apple-theme .navbar {
+  background-color: #FF4081; 
+}
+
+
+.App.spotify-theme {
+  background-color: #191414;
+  color: white;
+}
+
+.App.spotify-theme .navbar {
+  background-color: #1DB954; 
 }
 
 
