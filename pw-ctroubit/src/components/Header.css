@@ -1,5 +1,5 @@
 .Header {
-    font-size: 500%;
+    font-size: 7vh;
     color: #191414; /* Spotify dark green color */
     font-family: 'custom', sans-serif;
     font-weight: 100;
@@ -26,8 +26,8 @@
  }
  
  .musDiv {
-    margin-top: 5vh;
-    margin-left: 29vw;
+    margin-top: 3vh;
+    margin-left: 30.5vw;
  }
  
  .spotify {
@@ -49,45 +49,40 @@
     transition: 0.3s;
     cursor: pointer;
  }
+
  
- @media screen and (max-width: 1800px) {
-    .main {
-       font-size: 13px;
-    }
- }
  
- /* Step 1: Apple Music Theme Styles */
  .apple-theme .Header {
-    color: white; /* Change the header color to white for Apple Music */
+    color: white; 
  }
  
  .apple-theme .subheader {
-    color: white; /* Change the subheader text to white */
+    color: white; 
  }
  
  .apple-theme .main {
-    background-color: #FA233B; /* Apple Music red/pink background */
-    color: white; /* Text color for Apple Music theme */
+    background-color: #FA233B;
+    color: white; 
  }
  
- /* Update button hover effects for Apple Music theme */
+
  .apple-theme .apmusic {
-    color: white; /* Change the Apple Music icon to white */
+    color: white; 
  }
  
  .apple-theme .apmusic:hover {
-    color: #ffcccb; /* Lighter color on hover in the Apple Music theme */
+    color: #ffcccb;
     transition: 0.3s;
     cursor: pointer;
  }
  
- /* Optionally, adjust Spotify icon to visually indicate Apple Music theme */
+
  .apple-theme .spotify {
-    color: white; /* Make Spotify icon white as well */
+    color: white; 
  }
  
  .apple-theme .spotify:hover {
-    color: #1DB954; /* Spotify green on hover, to indicate it's clickable */
+    color: #1DB954; 
     transition: 0.3s;
     cursor: pointer;
  }
