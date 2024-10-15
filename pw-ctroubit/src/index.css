@@ -5,10 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#1DB954;
+  ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body.apple-theme {
+  background-color: #FA233B; /* Set the Apple theme background color */
+}
+
+/* Spotify theme body background */
+body.spotify-theme {
+  background-color: #1DB954; /* Set the Spotify theme background color */
 }

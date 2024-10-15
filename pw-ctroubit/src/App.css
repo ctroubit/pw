@@ -1,50 +1,51 @@
-
-.App {
-  text-align: center;
-}
-
 .bruh {
   font-size: small;
-  margin-left: 88vw;
-  margin-top: -1vh;
+  margin-left: 89.5vw;
+  margin-top: -0.25vh;
 }
-.Home{
-  color: white;
-  margin-left: 10vw;
-
-}
-
-.header-container {
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-}
-.hello{
+.hello {
   margin-left: 5vw;
 }
-.copy{
+
+.copy {
   text-align: center;
   margin-top: 0.5vh;
   font-weight: 700;
 }
 
-.App.apple-theme {
-  background-color: #FA233B;
+.App {
+  color: white;
+  
+}
+
+.subheader {
+  font-size: 150%;
+  margin-left: 0.5%;
+  color: white;
+  font-family: 'custom', sans-serif;
+}
+
+.main {
+  margin-left: 3%;
+  display: flex;
   color: white;
 }
 
-.App.apple-theme .navbar {
-  background-color: #FF4081; 
+.App.apple-theme {
+  background-color: white;
+  color: #FA233B;
 }
-
 
 .App.spotify-theme {
   background-color: #191414;
   color: white;
 }
-
-.App.spotify-theme .navbar {
-  background-color: #1DB954; 
+.copy.apple-theme{
+  background-color: #FA233B;
+  
+}
+.copy-spotify-theme{
+  background-color:#FA233B;
 }
 
 

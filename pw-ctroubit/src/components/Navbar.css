@@ -1,29 +1,20 @@
 
-.sidenav.default-theme {
-  background-color: black;
-}
-
-.sidenav.default-theme a {
-  color: #1DB954; 
-}
-
-.sidenav.default-theme .label {
-  color: #1DB954;
-}
-
-
 .sidenav.apple-theme {
-  background-color: #FA233B; 
+  background-color:#FA233B ;
 }
 
 .sidenav.apple-theme a {
   color: white;
+  
 }
 
 .sidenav.apple-theme .label {
   color: white;
 }
 
+.Contact.apple-theme{
+  color: white;
+}
 
 .sidenav.spotify-theme {
   background-color: #191414; 
@@ -37,18 +28,16 @@
   color: #1DB954;
 }
 
-
 .sidenav {
-  height: 77vh;
+  height: 80vh;
   width: 15vw;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: 5vh;
   margin-left: 2%;
-  margin-top: 5%;
+  margin-top: 6.25%;
   position: absolute;
   text-align: left;
 }
@@ -69,6 +58,7 @@
 .Contact {
   color: white;
   font-family: 'custom', sans-serif;
+  margin-left: 3%;
 }
 
 .git:hover,
@@ -83,8 +73,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 40%;
-
+  margin-top: 55%;
+  margin-left: 1%;
 }
 
 .navLinks {
@@ -109,19 +99,3 @@
   font-size: 20px;
 }
 
-/* @media screen and (max-width: 1800px) {
-  .sidenav {
-    width: 17vw;
-    margin-top: 8%;
-    height: 75vh;
-  }
-
-  .mainContact {
-    margin-left: 2vw;
-    margin-top: 10vh;
-  }
-
-  .Contact {
-    margin-top: 3vh;
-  }
-} */
