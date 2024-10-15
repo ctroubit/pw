@@ -20,21 +20,21 @@ const Navbar = ({ theme }) => {
   <h1 className="Contact">Contact me:</h1>
   <div className="socials">
     <div className="iconRow">
-      <a href="mailto:ctroubit@uwo.ca" target="_blank">
+      <a href="mailto:ctroubit@uwo.ca" target="_blank" rel="noreferrer">
         <IoIosMail className="mail" size={50} />
       </a>
       <span className="label">Email</span>
     </div>
 
     <div className="iconRow">
-      <a href="https://www.linkedin.com/in/cristiantroubitsin/" target="_blank">
+      <a href="https://www.linkedin.com/in/cristiantroubitsin/" target="_blank" rel="noreferrer">
         <AiOutlineLinkedin className="linked" size={50} />
       </a>
       <span className="label">LinkedIn</span>
     </div>
 
     <div className="iconRow">
-      <a href="https://github.com/ctroubit" target="_blank">
+      <a href="https://github.com/ctroubit" target="_blank" rel="noreferrer">
         <DiGithubBadge className="git" size={50} />
       </a>
       <span className="label">GitHub</span>
