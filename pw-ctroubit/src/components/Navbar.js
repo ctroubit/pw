@@ -12,8 +12,8 @@ const Navbar = ({ theme }) => {
         <div className="shitdiv">
           <a href="/">Home</a>
           <a href="/about">About Me</a>
-          <a href="#">Projects</a>
-          <a href="#">Blog</a>
+          <a href="/projects">Projects</a>
+          <a href="/blog">Blog</a>
         </div>
 
         <div className={`mainContact ${theme}-theme`}>

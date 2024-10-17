@@ -14,10 +14,9 @@ code {
 }
 
 body.apple-theme {
-  background-color: #FA233B; /* Set the Apple theme background color */
+  background-color: #FA233B; 
 }
 
-/* Spotify theme body background */
 body.spotify-theme {
-  background-color: #1DB954; /* Set the Spotify theme background color */
+  background-color: #1DB954; 
 }
