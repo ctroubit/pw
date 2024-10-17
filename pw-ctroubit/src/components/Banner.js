@@ -22,7 +22,6 @@ const Banner = ({theme}) => {
                 <img
                   key={index}
                   src={image}
-                  alt={`Image ${index + 1}`}
                   className={`imagestuff ${theme}-theme`}
                 />
               </div>
@@ -34,7 +33,6 @@ const Banner = ({theme}) => {
                 <img
                   key={index}
                   src={image}
-                  alt={`Image ${index + 1}`}
                   className="imagestuff"
                 />
               </div>
