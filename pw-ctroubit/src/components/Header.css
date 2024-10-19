@@ -51,10 +51,14 @@
     background-color: #FA233B;
     color: white; 
  }
+
  
  .apple-theme .Header,
  .apple-theme .subheader {
      color: black; 
+     font-family: "myriad-pro", sans-serif;
+     font-weight: 700;
+     font-style: normal;
  }
  
  .apple-theme .apmusic:hover {
@@ -66,9 +70,17 @@
  }
  .apple-theme .apmusic{
     color: black;
+    
  }
  
  .apple-theme .spotify:hover {
     color: #1DB954; 
+ }
+ .apple-theme .subheader{
+   margin-left: 34%;
+ }
+
+ .apple-theme .musDiv{
+   margin-top: -8vh;
  }
  

@@ -1,9 +1,9 @@
 import React from "react";
 import "./Blog.css"
-const Blog = () =>{
+const Blog = ({theme}) =>{
     return(
-        <div class="mainBlog">
-            <div className="text">
+        <div className={`blog-main ${theme}-theme`}>
+            <div className="blog-text">
             This page is still a work in progress. Check back later! (I'm very busy)
             </div>
         </div>

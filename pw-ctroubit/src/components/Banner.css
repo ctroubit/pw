@@ -3,7 +3,7 @@
     width: 450px;
     padding: 0 10px;
     object-fit: cover;
-    background-color: #191414;
+    background-color: hsl(0, 11%, 9%);
     cursor: pointer;
 }
 .images{
@@ -31,16 +31,18 @@
 @keyframes swipe{
     0%{
         transform:translateX(0);
+       
     }
     100%{
         transform: translateX(-100%);
+       
     }
 }
-.Home.apple-theme{
-    background-color: white;
-}
+
 .imagestuff.apple-theme{
     background-color: white;
 }
+
+
 
 

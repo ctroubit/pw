@@ -1,4 +1,4 @@
-.mainBlog{
+.blog-main{
     background-color:#191414;
     width: 75vw;
     height: 84vh;
@@ -11,6 +11,10 @@
     align-items: center;
     display: flex;
 }
-.text{
+.blog-text{
     margin-top: -20vh;
+}
+.blog-main.apple-theme{
+    background-color: white;
+    height: 85vh;
 }

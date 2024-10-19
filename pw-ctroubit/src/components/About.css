@@ -1,16 +1,77 @@
-.about-main{
-    background-color:#191414;
-    width: 75vw;
+.about-main {
+    background-color: #191414;
+    width: 79vw;
     height: 84vh;
     margin-left: 15%;
     margin-top: 0;
-    text-align: center;
     font-weight: 700;
-    font-size: 200%;
-    justify-content: center;
-    align-items: center;
+    font-size: 120%;
     display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }
-.text{
-    margin-top: -20vh;
+
+.part1-container {
+    display: flex; 
+}
+
+.image-about {
+    margin-top: 1vh;
+    margin-right: 20px; 
+    
+}
+
+.image-about{
+    height: 35vh;
+    width: 23vw;
+}
+
+.text {
+   margin-top: 1vh;
+    text-align: left;
+    color: white;
+    flex: 1;
+    margin-right: 1%;
+}
+
+
+.image8 {
+    height: 30vh;
+    width: 30vw;
+   margin-right: 1vw;
+}
+
+.part2{
+    align-self: flex-end; 
+    margin-top: 3vh;
+}
+
+.text2{
+    margin-left: -47vw;
+    margin-top: -34vh;
+    
+}
+.text3{
+    text-align: center;
+}
+.resume-link{
+    color: white;
+}
+.about-main.apple-theme{
+    background-color: white;
+    height: 87vh;
+    margin-top: -2vh;
+    
+}
+
+.text.apple-theme{
+    color: #FA233B;
+}
+
+.resume-link.apple-theme{
+    color: #FA233B;
+}
+
+.part2.apple-theme{
+    margin-top: 5vh;
 }

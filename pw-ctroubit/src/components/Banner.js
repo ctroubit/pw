@@ -14,14 +14,15 @@ const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 const Banner = ({theme}) => {
   return (
     <div className={`Home ${theme}-theme`}>
-      <div className="banner-wrapper">
-        <div className="wrapper">
+      <div className={`banner-wrapper ${theme}-theme`}>
+        <div className={`wrapper ${theme}-theme`}>
           <div className="images">
             {images.map((image, index) => (
               <div className="image">
                 <img
                   key={index}
                   src={image}
+                  alt={`Image ${index + 1}`}
                   className={`imagestuff ${theme}-theme`}
                 />
               </div>
@@ -33,7 +34,8 @@ const Banner = ({theme}) => {
                 <img
                   key={index}
                   src={image}
-                  className="imagestuff"
+                  alt={`Image ${index + 1}`}
+                  className={`imagestuff ${theme}-theme`}
                 />
               </div>
             ))}

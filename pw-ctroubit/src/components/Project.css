@@ -11,6 +11,10 @@
     align-items: center;
     display: flex;
 }
-.text{
+.projects-text{
     margin-top: -20vh;
+}
+.projects-main.apple-theme{
+    background-color: white;
+    height: 85vh;
 }

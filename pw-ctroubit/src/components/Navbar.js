@@ -18,12 +18,12 @@ const Navbar = ({ theme }) => {
 
         <div className={`mainContact ${theme}-theme`}>
           <h1 className={`Contact ${theme}-theme`}>Contact me:</h1>
-          <div className="socials">
+          <div className={`socials ${theme}-theme`}>
             <div className="iconRow">
               <a href="mailto:ctroubit@uwo.ca" target="_blank" rel="noreferrer">
                 <IoIosMail className="mail" size={50} />
               </a>
-              <span className="label">Email</span>
+              <span className={`label ${theme}-theme`}>Email</span>
             </div>
 
             <div className="iconRow">
@@ -34,7 +34,7 @@ const Navbar = ({ theme }) => {
               >
                 <AiOutlineLinkedin className="linked" size={50} />
               </a>
-              <span className="label">LinkedIn</span>
+              <span className={`label ${theme}-theme`}>LinkedIn</span>
             </div>
 
             <div className="iconRow">
@@ -45,7 +45,7 @@ const Navbar = ({ theme }) => {
               >
                 <DiGithubBadge className="git" size={50} />
               </a>
-              <span className="label">GitHub</span>
+              <span className={`label ${theme}-theme`}>GitHub</span>
             </div>
           </div>
         </div>

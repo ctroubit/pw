@@ -34,6 +34,9 @@
 .App.apple-theme {
   background-color: white;
   color: #FA233B;
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .App.spotify-theme {
@@ -42,6 +45,9 @@
 }
 .copy.apple-theme{
   background-color: #FA233B;
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   
 }
 .copy-spotify-theme{
