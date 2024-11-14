@@ -44,12 +44,13 @@
 .part2{
     align-self: flex-end; 
     margin-top: 3vh;
+    
 }
 
 .text2{
     margin-left: -47vw;
     margin-top: -34vh;
-    
+    width: 47vw;
 }
 .text3{
     text-align: center;

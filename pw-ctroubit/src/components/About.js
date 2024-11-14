@@ -41,17 +41,17 @@ const About = ({ theme }) => {
                 />
                 <div className='text2'>
                     <p>
-                        I've worked a couple jobs over the last couple years, but a majority of my <br></br> 
-                        time has been spent at Canada's Wonderland. I first started as a Team Lead <br></br>
-                        in Aquatics. After my first season, I got promoted to Trainer and I've been<br></br>
+                        I've worked a couple jobs over the last couple years, but a majority of my 
+                        time has been spent at Canada's Wonderland. I first started as a Team Lead 
+                        in Aquatics. After my first season, I got promoted to Trainer and I've been
                          in this position for the last 3 seasons. 
                     </p>
                     <p>
-                    This job has been one of the biggest impacts on my self-development. I <br></br>
-                    learned how to lead, communicate effectively, and deal with stress in a fast <br></br>
-                    paced environment. Many of the skills I've learned throughout my time have <br></br>
-                    contributed immensley to my work ethic, and make me the person who I am <br></br>
-                    today. I've also met a lot of amazing people along the way, and I would not <br></br>
+                    This job has been one of the biggest impacts on my self-development. I 
+                    learned how to lead, communicate effectively, and deal with stress in a fast 
+                    paced environment. Many of the skills I've learned throughout my time have 
+                    contributed immensley to my work ethic, and make me the person who I am 
+                    today. I've also met a lot of amazing people along the way, and I would not 
                     be where I am now without them.                 
                     </p>
 

@@ -51,9 +51,10 @@
 
 .sidenav {
   height: 80vh;
-  width: 15vw;
+  width: 16vw;
   position: fixed;
   z-index: 1;
+  overflow: hidden;
   top: 0;
   left: 0;
   overflow-x: hidden;
