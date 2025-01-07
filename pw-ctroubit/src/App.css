@@ -9,9 +9,16 @@
 
 .copy {
   text-align: center;
-  margin-top: 0.5vh;
+  padding: 10px 0;
+  background-color: #1DB954; 
+  color: #191414;
+  font-size: 15px;
+  position: fixed; 
+  bottom: 0;
   font-weight: 700;
+  width: 100%;
 }
+
 
 .App {
   color: white;
@@ -47,7 +54,7 @@
   background-color: #FA233B;
   font-family: "myriad-pro", sans-serif;
   font-weight: 700;
-  font-style: normal;
+  font-size: 17px;
   
 }
 .copy-spotify-theme{
@@ -56,6 +63,27 @@
 
 .bruh.apple-theme{
   color: black;
+}
+
+.mobile-warning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 97%;
+  color: #1DB954 ;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 50vh;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .mobile-warning {
+    display: none; 
+  }
+  
 }
 
 

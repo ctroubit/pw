@@ -1,86 +1,138 @@
-.Header {
-    font-size: 7vh;
-    color: white; 
-    font-family: 'custom', sans-serif;
-    font-weight: 100;
-    margin-top: 0vh;
-    margin-left: 2%;
- }
- 
- @font-face {
-    font-family: "custom";
-    src: url('./circular-std-2.ttf') format('truetype');
- }
- 
- .subheader {
-    font-size: 150%;
-    margin-left: 38%;
-    margin-top: -5vh;
-    color: white;
-    font-family: 'custom', sans-serif;
- }
- 
- .main {
-    color: white;
-    margin-left: 3%;
-   
- }
- 
- .musDiv {
-    margin-top: -7vh;
-    margin-left: 90vw;
- }
- 
- .spotify, .apmusic {
-    color: white;
-    transition: 0.3s;
-    display: inline-block; 
-    cursor: pointer;
+.header {
+   display: flex; 
+   align-items: center; 
+   justify-content: space-between; 
+   margin: 0;
+   padding: 0 2%; 
+   width: 100%; 
+   box-sizing: border-box; 
 }
- 
- .spotify:hover {
-    color: #1DB954;
-    cursor: pointer; 
- }
- 
- .apmusic:hover {
-    color: #ffcccb;
- }
 
- .apple-theme .main {
-    background-color: #FA233B;
-    color: white; 
- }
+.Header {
+   font-size: 3vw; 
+   color: white; 
+   font-family: 'custom', sans-serif;
+   font-weight: 700;
+   margin: 0; 
+   white-space: nowrap; 
+}
 
- 
- .apple-theme .Header,
- .apple-theme .subheader {
-     color: black; 
-     font-family: "myriad-pro", sans-serif;
-     font-weight: 700;
-     font-style: normal;
- }
- 
- .apple-theme .apmusic:hover {
-    color: #ffcccb;
- }
+.subheader {
+   font-size: 2vw; 
+   color: white;
+   font-family: 'custom', sans-serif;
+   font-weight: 400;
+   margin-right: 32%;
+   margin-top: 2%; 
+   white-space: nowrap; 
+}
 
- .apple-theme .spotify {
+.musDiv {
+   display: flex; 
+   gap: 10px;
+   margin: 0;
+}
+
+.spotify, .apmusic {
+   color: white;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.spotify:hover {
+   color: #1DB954;
+}
+
+.apmusic:hover {
+   color: #ffcccb;
+}
+.spotify, .apmusic {
+   color: white;
+   transition: 0.3s;
+   display: inline-block; 
+   cursor: pointer;
+}
+
+.spotify:hover {
+   color: #1DB954;
+   cursor: pointer; 
+}
+
+.apmusic:hover {
+   color: #ffcccb;
+}
+
+.apple-theme .main {
+   background-color: #FA233B;
+   color: white; 
+}
+
+
+.apple-theme .Header,
+.apple-theme .subheader {
     color: black; 
- }
- .apple-theme .apmusic{
-    color: black;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     
- }
- 
- .apple-theme .spotify:hover {
-    color: #1DB954; 
- }
- .apple-theme .subheader{
-   margin-left: 35%;
- }
+}
+.apple-theme .Header{
+   font-size: 3.25vw; 
+}
+.apple-theme .subheader{
+   font-size: 2vw; 
+   margin-right: 33%;
+}
 
- .apple-theme .musDiv{
-   margin-top: -8vh;
- }
- 
+.apple-theme .apmusic:hover {
+   color: #ffcccb;
+}
+
+.apple-theme .spotify {
+   color: black; 
+}
+.apple-theme .apmusic{
+   color: black;
+   
+}
+
+.apple-theme .spotify:hover {
+   color: #1DB954; 
+}
+
+@media (max-width: 768px) {
+   .header {
+       flex-direction: column; 
+       align-items: center; 
+   }
+
+   .Header, .subheader {
+       font-size: 5vw; 
+       text-align: center; 
+       margin: 5px 0;
+   }
+
+   .musDiv {
+       margin-top: 10px;
+   }
+}
+
+@media (max-width: 480px) {
+   .Header {
+       font-size: 6vw;
+   }
+
+   .subheader {
+       font-size: 4.5vw;
+   }
+
+   .musDiv {
+       gap: 5px; 
+   }
+}
+
+
+@font-face {
+   font-family: "custom";
+   src: url('./circular-std-2.ttf') format('truetype');
+}

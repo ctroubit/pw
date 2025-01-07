@@ -12,20 +12,45 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [theme, setTheme] = useState("spotify");
+  const [isMobile, setIsMobile] = useState(false);
 
   const setAppleTheme = () => setTheme("apple");
   const setSpotifyTheme = () => setTheme("spotify");
 
   useEffect(() => {
+    // Detect mobile device
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth <= 768); // Mobile if width <= 768px
+    };
+
+    // Initial check
+    checkIfMobile();
+
+    // Add event listener for resizing
+    window.addEventListener("resize", checkIfMobile);
+
+    // Cleanup listener on component unmount
+    return () => window.removeEventListener("resize", checkIfMobile);
+  }, []);
+
+  useEffect(() => {
     document.body.classList.remove("apple-theme", "spotify-theme");
     document.body.classList.add(`${theme}-theme`);
-    const favicon = document.getElementById('favicon');
-    if (theme === 'spotify') {
+    const favicon = document.getElementById("favicon");
+    if (theme === "spotify") {
       favicon.href = `${process.env.PUBLIC_URL}/spotify.png`;
-    } else if (theme === 'apple') {
+    } else if (theme === "apple") {
       favicon.href = `${process.env.PUBLIC_URL}/apple.png`;
     }
   }, [theme]);
+
+  if (isMobile) {
+    return (
+      <div className="mobile-warning">
+        Mobile view is still being worked on. Please view this website on a laptop or desktop.
+      </div>
+    );
+  }
 
   return (
     <Router>
@@ -34,7 +59,6 @@ function App() {
           setAppleTheme={setAppleTheme}
           setSpotifyTheme={setSpotifyTheme}
         />
-        <h1 className={`bruh ${theme}-theme`}>Pick your favourite!</h1>
         <Navbar className="navbar" theme={theme} />
         <div className="hello">
           <Routes>
