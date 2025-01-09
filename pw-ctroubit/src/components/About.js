@@ -57,7 +57,7 @@ const About = ({ theme }) => {
         <p>
             If you'd like to check out my resume, click this link{" "}
             <a
-                href="https://drive.google.com/file/d/1C9uyRfoPoKAS3WLauZ5JfdnYgMMVgqOO/view?usp=sharing"
+                href="https://drive.google.com/file/d/10xoV3I4J0XXzm6wL-ec2gBqbyNk0io4t/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className={`resume-link ${theme}-theme`}
